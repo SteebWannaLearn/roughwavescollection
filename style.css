@@ -6,23 +6,24 @@
     box-sizing: border-box;
 }
 
-audio{
+/* audio{
   position: relative;
+    justify-content: center;
   padding: 30px;
 }
 audio::-webkit-media-controls-panel{
-  background-color: transparent;
+  background-color: rgba(0,0,0,0);
 }
 audio::-webkit-media-controls-play-button{
   background-color: none;
   border-radius: 50%;
 }
 audio::-webkit-media-controls-current-time-display{
-  color: #333;
+  color: rgb(100,100,100);
 }
 audio::-webkit-media-controls-time-remaining-display{
-  color: #333;
-}
+  color: rgb(100,100,100);
+} */
 
 body {
     height: 100vh;
