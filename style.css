@@ -8,7 +8,7 @@
 
 audio{
   position: relative;
-  padding: 300px;
+  padding: 30px;
 }
 audio::-webkit-media-controls-panel{
   background-color: transparent;
@@ -42,12 +42,12 @@ button {
     transition: transform 0.5s;
 }
 
-button:focus {
+button: focus {
     outline: none;
 }
 
-button:hover i {
-    color: rgb(100, 100, 100);
+button: hover i {
+    color: RGB(100, 100, 100);
 }
 
 i {
